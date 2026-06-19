@@ -6,9 +6,10 @@ body {
 }
 
 .left {
-  background-color: gray;
+  background-color: rgb(52, 75, 125);
   width: 50%;
   height: 100%;
+  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
 }
 
 .right {
@@ -19,6 +20,8 @@ body {
 h1 {
   text-align: center;
   margin-top: 10rem;
+  background-color: rgb(167, 191, 243);
+  border-radius: 10px;
 }
 
 .social-btns {
@@ -31,11 +34,13 @@ h1 {
 .btn-fb {
   width: 10rem;
   height: 2rem;
+  border-radius: 20px;
 }
 
 .btn-ig {
   width: 10rem;
   height: 2rem;
+  border-radius: 20px;
 }
 
 label {
@@ -53,4 +58,19 @@ form {
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
+}
+
+.btn-login {
+  width: 5rem;
+  height: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.login-header {
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+
 }
