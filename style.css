@@ -74,3 +74,10 @@ form {
   justify-content: center;
 
 }
+
+.remember-me {
+  display: flex;
+  align-items: start;
+  margin-top: 1rem;
+
+}
