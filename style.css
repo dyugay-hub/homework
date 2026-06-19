@@ -79,5 +79,6 @@ form {
   display: flex;
   align-items: start;
   margin-top: 1rem;
+  margin-top: 10px;
 
 }
