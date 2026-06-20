@@ -1,44 +1,73 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Css task no.3 </title>
-  <link rel="stylesheet" href="style.css">
+  <title>Login page</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-  <section class="left"></section>
+
+  <section class="left">
+
+
+  </section>
+
   <section class="right">
-    <div class="login-header">
-      <h1>Login</h1>
-    </div>
 
-    <section class="social-btns">
-      <button type="button" class="btn-fb">Facebook</button>
-      <button type="button" class="btn-ig">Instagram</button>
-    </section>
+    <section class="border-form">
 
-    <form>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Email" required>
+      <h1>Login page</h1>
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" placeholder="Password" required> 
+      <div class="scl-btn">
 
-      <div class="remember-me">
-        <input type="checkbox" id="remember" name="remember">
-        <label for="remember">Remember me</label>
+
+        <button class="apple-btn" type="submit">
+          <span ><img class="apple-logo" src="./apple logo.svg" alt=""></span> 
+          <span >Login Apple</span>
+        </button>
+
+        <button class="fcb-btn" type="submit">
+          <span><img class="fcb-logo" src="./facebook logo.svg" alt=""></span>
+          <span>Login Facebook</span>
+
+        </button>
+
+        <button class="inst-btn" type="submit">
+          <span><img class="inst-logo" src="./insta logo.svg" alt=""></span>
+          <span>Login Instagram</span>
+
+        </button>
+
+
       </div>
 
-      <button class="btn-login" type="submit">Login</button>
+      <form class="user-data" action="#" method="post">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <button type="submit">Login</button>
+
+
+      </form>
+      
+      
+
+      
 
 
 
-    </form>
+
+    </section>
+
+    
+
+
   </section>
+  
 </body>
-
 </html>
