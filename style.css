@@ -39,6 +39,7 @@ body {
 h1 {
     text-align: center;
     color: rgb(0, 0, 0);
+    font-size: 35px;
 }
 
 .border-form {
@@ -121,7 +122,7 @@ h1 {
     margin: 0.5rem
 }
 
-.user-data label[email1],input[type="text"],select[id="email"] {
+.user-data label[for="email1"],input[type="text"],select[id="email"] {
     margin-top: 40px;
 }
 
