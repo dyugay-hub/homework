@@ -42,18 +42,49 @@
 
       </div>
 
-      <form class="user-data" action="#" method="post">
+      <div>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
+        <form class="user-data" action="#" method="post">
 
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" required>
+          <div>
+            <label for="email">Email:</label>
+            <input type="text" name="login" id="email" required>
 
-        <button type="submit">Login</button>
+             <select name="email" id="email">
+              <option value="@gmail.com">gmail.com</option>
+              <option value="@mail.ru">mail.ru</option>
+              <option value="@yahoo.com">yahoo.com</option>
+            </select>
+          </div>
+
+   
+        
+
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" name="login" id="password" required>
+          </div>
 
 
-      </form>
+
+
+          <div>
+            <input id="rememberme" type="checkbox" value="remember-me" name="login">
+            <label for="rememberme">Remember me</label>
+          </div>
+
+
+
+          <div>
+            <button class="login-btn" type="submit" name="login">Login</button>
+          </div>
+
+
+      
+        </form>
+
+
+      </div>
       
       
 
