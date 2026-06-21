@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./bodybackground.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./macbackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,8 +10,8 @@ body {
 
 .left {
 
-    background-color: rgb(0, 0, 0);
-    opacity: 0.2;
+    background-color: rgb(181, 181, 181);
+    opacity: 0.1;
     margin: 0;
     padding: 0;
     width: 50%;
@@ -38,11 +38,12 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(93, 93, 93);
+    color: rgb(0, 0, 0);
 }
 
 .border-form {
-    background-color: rgba(93, 136, 255, 0.606);
+    background-color: rgb(154, 154, 154);
+    opacity: 0.8;
     width: 600px;
     border-radius: 15px;
     height: 400px;
@@ -120,7 +121,7 @@ h1 {
     margin: 0.5rem
 }
 
-.user-data label[email],input[type="email"],select[id="email"] {
+.user-data label[email1],input[type="text"],select[id="email"] {
     margin-top: 40px;
 }
 
