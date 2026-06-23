@@ -9,7 +9,6 @@ body {
 }
 
 .left {
-
     background-color: rgb(181, 181, 181);
     opacity: 0.1;
     margin: 0;
@@ -21,7 +20,6 @@ body {
 }
 
 .right {
-
     margin: 0;
     padding: 0;
     width: 50%;
@@ -29,11 +27,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
-
-
 }
 
 h1 {
